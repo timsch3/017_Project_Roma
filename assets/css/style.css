@@ -8,7 +8,7 @@
 }
 @font-face {
     font-family: Santio;
-    src: url(../fonts/Santio-Regular.ttf);
+    src: url(../fonts/Santio-Bold.ttf);
 }
 @font-face {
     font-family: MrDafoe;
@@ -16,3 +16,106 @@
 }
 
 /* #e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff */
+
+/* ==================== Global CSS */
+* {
+    margin: 0;
+}
+body {
+    font-family: Santio;
+    text-align: left;
+    color: #fff;
+    letter-spacing: 1px;
+}
+span {
+    background-color: #333;
+    color: #efefef;
+}
+a {
+    text-decoration: none;
+}
+.darken {
+    width: 100%; height: 100%; background-color: #00000066;
+}
+
+/* ==================== Top section */
+section:first-of-type {
+    background: url(../img/cleo-topper.jpg) no-repeat fixed center/cover;
+}
+/* --------------- Top right CTA */
+section:first-of-type aside {
+    font-family: Roboto;
+    font-weight: bold;
+    text-align: right;
+    padding: 10px 4% 0 0;
+}
+section:first-of-type aside img {
+    display: inline-block;
+    height: 20px;
+    padding-right: 14px;
+}
+section:first-of-type aside p {
+    display: inline-block;
+    padding-bottom: 3px;
+    border-bottom: 2px solid #e7bc0e;
+}
+section:first-of-type aside a {
+    color: #fff;
+}
+/* --------------- First paragraph & Scroll down link */
+section:first-of-type > div > h1 {
+    padding: 10% 0 50px 7%;
+    font-size: 3em;
+    width: 20%;
+}
+section:first-of-type div > a {
+    display: inline-block;
+    font-family: MrDafoe;
+    font-size: 2em;
+    color: #e7bc0e;
+    letter-spacing: -1px;
+    padding-left: 7%;
+    padding-right: 20px;
+}
+#rotated {
+    display: inline-block;
+    transform: rotate(-90deg);
+    padding-left: 0;
+    padding-right: 0;
+}
+/* --------------- Second paragraph */
+section:first-of-type div > p {
+    padding: 300px 35% 400px 14%;
+    font-size: 2em;
+    color: #6bc1a3;
+}
+/* --------------- Facts */
+.facts {
+    padding: 0 0 150px 10%;
+}
+.facts img {
+    width: 10%;
+    padding-bottom: 80px;
+}
+.facts h1 {
+    font-size: 5em;
+}
+.facts p {
+    font-size: 2em;
+}
+.fact1 {
+    color: #e7bc0e;
+    
+}
+.fact2 {
+    color: #cb91b6;
+}
+.fact3 {
+    color: #6bc1a3;
+}
+#facts_p {
+    width: 55%;
+    padding: 0 7% 50px 40%;
+    font-size: 1.5em;
+    color: #7eb8e1;
+}
