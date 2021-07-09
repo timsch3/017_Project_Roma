@@ -1,0 +1,18 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto-Medium;
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: Santio;
+    src: url(../fonts/Santio-Regular.ttf);
+}
+@font-face {
+    font-family: MrDafoe;
+    src: url(../fonts/MrDafoe-Regular.ttf);
+}
+
+/* #e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff */
